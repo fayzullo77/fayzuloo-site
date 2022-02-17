@@ -1,0 +1,208 @@
+body {
+    margin: 0;
+    font-family: 'Roboto', sans-serif;  
+}
+
+
+.container {
+    width: 1170px;
+    margin: 0 auto;
+}
+
+.logo {
+    width: 30px;
+}
+
+nav {
+    display: flex;
+    justify-content: space-between;
+}
+
+ul.menu>li {
+    display: inline-block;
+    margin-left: 35px;
+    font-size: 18px;
+}
+
+ul.menu>li>a {
+    color: #999;
+    text-decoration: none;
+    font-size: 18px;
+}
+ul.menu>li>a:hover {
+    border-bottom: solid 2px #000;
+    color: #000;
+    padding-bottom: 5px;
+}
+
+ul.menu>li>input {
+    border: none;
+    border-bottom: solid 1px;
+    font-size: 18px;
+}
+
+.watch-block {
+    background-image: url(watches.jpg);
+    background-repeat: no-repeat;
+    height: 85vh;
+    background-position-x: 1400px;
+    border-bottom: 1px solid #e0dfdf;
+}
+
+.watch-text {
+    width: 400px;
+    height: 600px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+
+.watch-text h1 {
+    font-size: 45px;
+    margin-bottom: 60px;
+}
+
+.watch-text p {
+    border-left: solid 3px #999;
+    color: #999;
+    padding-left: 30px;
+    margin-bottom: 40px;
+}
+
+
+.watch-text a {
+    background-color: #ea625c;
+    width: fit-content;
+    padding: 15px 22px;
+    color: white;
+    text-decoration: none;
+    font-weight: 600;
+}
+
+.card-main {
+    display: flex;
+    justify-content: space-between;
+    padding: 60px 0;
+}
+
+.card {
+    width: 30%;
+}
+
+.card>h3 {
+    margin-bottom: 50px;
+    margin-top: 0;
+}
+
+.card p {
+    margin: 0;
+}
+
+.card .expand {
+    font-size: 36px;
+    text-decoration: none;
+    color: #999;
+    position: relative;
+    top: 25px; 
+}
+
+.card .more {
+    position: relative;
+    left: 50px;
+    color: #ea625c;
+    font-weight: 600;
+    text-decoration: none;
+    top: 25px;
+}
+
+.card .more::before {
+    position: relative;
+    content: '';
+    display: block;
+    width: 45px;
+    height: 2px;
+    background-color: #ea625c;
+    right: 50px;
+    top: 11px;
+}
+
+.sport {
+    display: flex;
+    justify-content: space-between;
+}
+
+.sport-text {
+    flex-basis: 39%;
+    align-self: center ;
+}
+
+.sport-img {
+    width: 400px;
+}
+
+.sport-img img {
+    width: 100%;
+}
+
+.sport-text h1 {
+    font-size: 45px;
+    text-transform: capitalize;
+}
+
+.sport-text p {
+    border-left: solid 3px #999;
+    color: #999;
+    padding-left: 30px;
+    margin-bottom: 45px;
+}
+
+
+.sport-text>a {
+    background-color: #ea625c;
+    width: fit-content;
+    padding: 13px 20px;
+    color: white;
+    text-decoration: none;
+    font-weight: 600;
+}
+
+.health {
+    height: 95vh;
+    background-image: url(runners.jpg);
+    background-size: 100%;
+    background-repeat: no-repeat;
+    background-position: center center;
+}
+
+.health-text {
+    color: white;
+    width: 450px;
+    margin-left: auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    height: 85vh;
+
+}
+
+.health-text>h1 {
+    font-size: 45px;
+    margin-bottom: 65px;
+}
+
+.health-text>p {
+    border-left: solid 3px #fff;
+    color: #fff;
+    padding-left: 30px;
+    margin-bottom: 45px;
+}
+
+.health-text>a {
+    background-color: #ea625c;
+    width: fit-content;
+    padding: 13px 20px;
+    color: white;
+    text-decoration: none;
+    font-weight: 600;
+}
